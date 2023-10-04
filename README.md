@@ -23,9 +23,24 @@ We'll keep things super simple instead, and use an `<input type="password" />`
 field to capture input. Here's how to complete the exercise:
 
 1. In the `components/Keypad.js` file, create a `Keypad` React component.
+    go to the keypad.js file
+    create a react component called "Keypad" DONE
+
+
+
+
 2. In that component, render an `input` with the right type.
+    That component should render <input type="password"></>
+
+
 3. On that `input`, add an event handler that listens for the `change` event.
+    Add "onChange()" to the input
+
+
+
 4. When that event fires, use `console.log` to print out the text `'Entering password...'`.
+
+
 
 ## Eyes on the ball
 
